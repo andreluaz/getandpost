@@ -1,0 +1,35 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Danilo",
+      "location": "Fifa2019"
+    },
+    {
+      "{nome : \"Danilo\", location : \"BR\"}": "",
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    },
+    {
+      "nome": "roy",
+      "location": "india",
+      "id": 7
+    },
+    {
+      "nome": "roy",
+      "location": "india",
+      "id": 8
+    }
+  ]
+}
