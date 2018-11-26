@@ -2,19 +2,20 @@
   "name": "danilo",
   "version": "1.0.0",
   "description": "",
-  "main": "post.js",
+  "main": "getposturl.js",
   "scripts": {
-    "test": "mocha geturl.js"
+    "test": "mocha getposturl.js"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "request": "^2.88.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "chai": "^4.2.0",
+    "joi": "^10.4.1",
+    "joi-assert": "0.0.3",
     "mocha": "^5.2.0",
+    "request": "^2.88.0",
     "should": "^13.2.3",
-    "supertest": "^3.3.0"
+    "supertest": "^3.0.0"
   }
 }
