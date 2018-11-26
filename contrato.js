@@ -9,32 +9,30 @@ const {
     schemaValido
 } = require("./schema/info.js");
 
-
-const schema = joi.object().keys({
-    a: joi.string().required()
-});
-
-
 describe("Teste Contrato API", function () {
 
     it('Validando GET com joiAssert', function (done) {
            url
-            .get("/usuarios")
-            //.expect('Content-Type', /json/)
+            .get("/usuarios/1")
+            .expect('Content-Type', /json/)
             
             .end(function (err, res) {
                 expect(res.status).to.be.eql(200);
-                
-                console.log(res.body);
-                
-                joi.validate( res.body , schemaValido);
-                //joi.validate( 12312 , schema);
-                //joi.validate(undefined, joi.string().required());
-                //joiAssert(res.body, schemaValido);
-                console.log(schemaValido);
-                
+                joiAssert(res.body, schemaValido);                
                 done();
             })
     })
 
+     it('Validando GET com joi validate', function (done) {
+        url
+         .get("/usuarios/1")
+         .expect('Content-Type', /json/)
+         
+         .end(function (err, res) {
+             expect(res.status).to.be.eql(200);
+             joi.validate(res.body, schemaValido);
+             done();
+         })
+    })
+ 
 })
