@@ -13,7 +13,7 @@ describe("Teste Contrato API", function () {
 
     it('Validando GET com joiAssert', function (done) {
            url
-            .get("/usuarios/1")
+            .get("/usuarios")
             .expect('Content-Type', /json/)
             
             .end(function (err, res) {
@@ -25,7 +25,7 @@ describe("Teste Contrato API", function () {
 
      it('Validando GET com joi validate', function (done) {
         url
-         .get("/usuarios/1")
+         .get("/usuarios")
          .expect('Content-Type', /json/)
          
          .end(function (err, res) {
