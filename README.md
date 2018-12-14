@@ -8,7 +8,7 @@ https://github.com/danilopolicarpos/Httparty
 
 ## Clonando o repositório
 
-Para fazer uma cópia "clone" do repositório é necessário a instalação do git para isto basta seguir os passos deste link abaixo:
+Para fazer uma cópia "clone" do repositório é necessário a instalação do git para isto basta seguir os passos deste link:
 https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git
 
 Após a instalação do git digite:
