@@ -33,7 +33,7 @@ Isto fará a instalação das dependências necessárias para a execução dos t
 
 ## Uso:
 
-Para usar, não esquecer de iniciar o json-server e então digite.
+Para usar, não esquecer de iniciar o json-server e então digite:
 
 ```
 mocha getposturl.js
