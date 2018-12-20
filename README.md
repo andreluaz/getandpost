@@ -51,6 +51,16 @@ mocha getposturl.js
 
 ## Arquitetura do Projeto
 
+```
+├── README.md
+├── getposturl.js         - Testes de GET e POST
+├── info.json             - Arquivo usado pelo Json-server
+├── info.txt              - Leitura dos dados para ser enviado via requisição POST
+├── node_modules          - Dependências instaladas
+├── package-lock.json     - Versões das dependências instaladas
+└── package.json          - Dependências usada no projeto
+```
+
 ## Referências:
 
 Link para maiores informações sobre o mocha: https://mochajs.org/
