@@ -23,7 +23,7 @@ Clone o Repositório:
 git clone https://github.com/andreluaz/getandpost.git
 ```
 
-## Instalação das dependências:
+## Instalação das dependências
 
 Após a cópia "clonagem" do repositório digite:
 ```
