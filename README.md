@@ -3,16 +3,16 @@ Consumir uma API Json-Server, efetuando um GET e POST na API e usando o Mocha co
 
 ## Pré-requisito
 
-É necessário a instalação do Json-Server, para instalar digite em seu terminal:
+É necessário a instalação do node e npm, para instalar digite em seu terminal:
+
+```
+brew install node
+```
+
+É necessário também a instalação do Json-Server:
 
 ```
 npm install -g json-server
-```
-
-Também é necessário a instalação do Bundle:
-
-```
-gem install bundler
 ```
 
 ### Clonando o repositório
@@ -43,7 +43,7 @@ Não esquecer de iniciar o json-server para executar as features.
 
 ## Execução dos Testes
 
-Para executar os testes abra uma nova aba no terminal e digite:
+Para executar os testes, abra uma nova aba no terminal e digite:
 
 ```
 mocha getposturl.js
