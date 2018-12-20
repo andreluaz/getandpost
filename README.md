@@ -61,7 +61,7 @@ mocha getposturl.js
 └── package.json          - Dependências usada no projeto
 ```
 
-## Referências:
+## Referências
 
 Link para maiores informações sobre o mocha: https://mochajs.org/
 
