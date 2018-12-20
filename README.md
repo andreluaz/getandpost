@@ -1,20 +1,28 @@
 # getandpost
-Consumir uma API Json-Server usando GET and POST
+Consumir uma API Json-Server, efetuando um GET e POST na API e usando o supertest e validando com should e expect.
 
 ## Pré-requisito
 
-É necessário a instalação do Json-Server, sua instalação poderá ser seguida neste link abaixo:
-https://github.com/danilopolicarpos/Httparty
+É necessário a instalação do Json-Server, para instalar digite em seu terminal:
 
-## Clonando o repositório
+```
+npm install -g json-server
+```
 
-Para fazer uma cópia "clone" do repositório é necessário a instalação do git para isto basta seguir os passos deste link:
-https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git
+Também é necessário a instalação do Bundle:
 
-Após a instalação do git digite:
+```
+gem install bundler
+```
+
+### Clonando o repositório
+
+Clone o Repositório:
+
 ```
 git clone https://github.com/andreluaz/getandpost.git
 ```
+
 ## Iniciando o json-server
 
 Após a cópia "clonagem" do repositório e a instalação do Json-Server digite:
