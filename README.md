@@ -1,5 +1,5 @@
 # getandpost
-Consumir uma API Json-Server, efetuando um GET e POST na API e usando o supertest e validando com should e expect.
+Consumir uma API Json-Server, efetuando um GET e POST na API e usando o Mocha com Should e Expect para efetuar a validação.
 
 ## Pré-requisito
 
@@ -23,13 +23,6 @@ Clone o Repositório:
 git clone https://github.com/andreluaz/getandpost.git
 ```
 
-## Iniciando o json-server
-
-Após a cópia "clonagem" do repositório e a instalação do Json-Server digite:
-```
-json-server --watch info.json
-```
-
 ## Instalação das dependências:
 
 Após a cópia "clonagem" do repositório digite:
@@ -39,10 +32,26 @@ npm install
 
 Isto fará a instalação das dependências necessárias para a execução dos testes.
 
-## Uso:
+## Iniciando o json-server
 
-Para executar, não esquecer de iniciar o json-server e então digite:
+Iniciar o Json-Server:
+```
+json-server --watch info.json
+```
+
+Não esquecer de iniciar o json-server para executar as features.
+
+## Execução dos Testes
+
+Para executar os testes abra uma nova aba no terminal e digite:
 
 ```
 mocha getposturl.js
 ```
+
+## Arquitetura do Projeto
+
+## Referências:
+
+Link para maiores informações sobre o mocha: https://mochajs.org/
+
